@@ -1,0 +1,34 @@
+/* general ============================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100svh;
+  display: grid;
+  place-content: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+/* table ============================================================ */
+.table {
+  width: 90vw !important;
+}
+/* link ============================================================ */
+.link {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-decoration: none !important;
+  color: #9b59b6 !important;
+  background: white;
+  padding: 1rem 2rem;
+  height: 3rem;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+}
